@@ -87,6 +87,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ClientesDAL.cs" />
     <Compile Include="Conexao.cs" />
     <Compile Include="GeneroDAL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

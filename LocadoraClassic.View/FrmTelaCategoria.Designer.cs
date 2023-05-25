@@ -75,6 +75,7 @@
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(338, 20);
             this.textBox2.TabIndex = 4;
+            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // FrmTelaCategoria
             // 
@@ -89,6 +90,7 @@
             this.Name = "FrmTelaCategoria";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Cadastro Categoria";
+            this.Load += new System.EventHandler(this.FrmTelaCategoria_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

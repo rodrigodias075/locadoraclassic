@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 
+
 namespace LocadoraClassic.View
 {
     public partial class frmMenu : Form
@@ -33,24 +34,24 @@ namespace LocadoraClassic.View
         private void categoriaToolStripMenuItem_Click(object sender, EventArgs e)
         {
             FrmTelaCategoria frmTelaCategoria = new FrmTelaCategoria();
-            frmTelaCategoria.MdiParent = this;       
+            frmTelaCategoria.MdiParent = this;
             frmTelaCategoria.Show();
         }
 
         private void filmeToolStripMenuItem_Click(object sender, EventArgs e)
         {
             FrmTelaFilme frmTelFilme = new FrmTelaFilme();
-            frmTelFilme.MdiParent= this;
+            frmTelFilme.MdiParent = this;
             frmTelFilme.Show();
         }
 
+
         private void clienteToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            FrmCliente frmCliente = new FrmCliente();
-            frmCliente.MdiParent = this;
-            frmCliente.Show();
+            FrmTelaCliente frmClientes= new FrmTelaCliente();  
+            frmClientes.MdiParent = this;
+            frmClientes.Show();
         }
-
         private void realizarLocaçãoToolStripMenuItem_Click(object sender, EventArgs e)
         {
             FrmTelaLocacao frm = new FrmTelaLocacao();
@@ -63,4 +64,7 @@ namespace LocadoraClassic.View
 
         }
     }
-}
+
+    }
+
+

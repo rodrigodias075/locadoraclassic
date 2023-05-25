@@ -16,5 +16,10 @@ namespace LocadoraClassic.View
         {
             InitializeComponent();
         }
+
+        private void FrmTelaFilme_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
