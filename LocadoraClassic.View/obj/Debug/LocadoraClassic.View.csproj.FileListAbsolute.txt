@@ -92,3 +92,8 @@ C:\Users\ALUNO\source\repos\locadoraclassic\LocadoraClassic.View\obj\Debug\Locad
 C:\Users\ALUNO\source\repos\locadoraclassic\LocadoraClassic.View\obj\Debug\LocadoraClassic.View.exe
 C:\Users\ALUNO\source\repos\locadoraclassic\LocadoraClassic.View\obj\Debug\LocadoraClassic.View.pdb
 C:\Users\ALUNO\source\repos\locadoraclassic\LocadoraClassic.View\obj\Debug\LocadoraClassic.View.FrmTelaCliente.resources
+C:\Users\ALUNO\source\repos\locadoraclassic\LocadoraClassic.View\bin\Debug\MySqlConnector.dll
+C:\Users\ALUNO\source\repos\locadoraclassic\LocadoraClassic.View\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\ALUNO\source\repos\locadoraclassic\LocadoraClassic.View\bin\Debug\MySqlConnector.xml
+C:\Users\ALUNO\source\repos\locadoraclassic\LocadoraClassic.View\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\ALUNO\source\repos\locadoraclassic\LocadoraClassic.View\obj\Debug\LocadoraClassic.View.FrmTelaLogin.resources

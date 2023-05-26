@@ -36,6 +36,8 @@ namespace LocadoraClassic.View
             this.txtGenero = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.dgvGeneros = new System.Windows.Forms.DataGridView();
+            this.btnExcluir = new System.Windows.Forms.Button();
+            this.btnAtualizar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvGeneros)).BeginInit();
             this.SuspendLayout();
             // 
@@ -62,7 +64,7 @@ namespace LocadoraClassic.View
             this.button1.FlatAppearance.BorderColor = System.Drawing.Color.Red;
             this.button1.FlatAppearance.BorderSize = 2;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button1.Location = new System.Drawing.Point(386, 80);
+            this.button1.Location = new System.Drawing.Point(104, 92);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(133, 23);
             this.button1.TabIndex = 2;
@@ -79,6 +81,31 @@ namespace LocadoraClassic.View
             this.dgvGeneros.TabIndex = 3;
             this.dgvGeneros.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvGeneros_CellContentClick);
             // 
+            // btnExcluir
+            // 
+            this.btnExcluir.FlatAppearance.BorderColor = System.Drawing.Color.Red;
+            this.btnExcluir.FlatAppearance.BorderSize = 2;
+            this.btnExcluir.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnExcluir.Location = new System.Drawing.Point(571, 233);
+            this.btnExcluir.Name = "btnExcluir";
+            this.btnExcluir.Size = new System.Drawing.Size(133, 23);
+            this.btnExcluir.TabIndex = 4;
+            this.btnExcluir.Text = "Excluir";
+            this.btnExcluir.UseVisualStyleBackColor = true;
+            // 
+            // btnAtualizar
+            // 
+            this.btnAtualizar.FlatAppearance.BorderColor = System.Drawing.Color.Red;
+            this.btnAtualizar.FlatAppearance.BorderSize = 2;
+            this.btnAtualizar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnAtualizar.Location = new System.Drawing.Point(571, 143);
+            this.btnAtualizar.Name = "btnAtualizar";
+            this.btnAtualizar.Size = new System.Drawing.Size(133, 23);
+            this.btnAtualizar.TabIndex = 5;
+            this.btnAtualizar.Text = "Alterar";
+            this.btnAtualizar.UseVisualStyleBackColor = true;
+            this.btnAtualizar.Click += new System.EventHandler(this.btnAtualizar_Click);
+            // 
             // FrmTelaGenero
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -86,6 +113,8 @@ namespace LocadoraClassic.View
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnAtualizar);
+            this.Controls.Add(this.btnExcluir);
             this.Controls.Add(this.dgvGeneros);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.txtGenero);
@@ -107,5 +136,7 @@ namespace LocadoraClassic.View
         private System.Windows.Forms.TextBox txtGenero;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.DataGridView dgvGeneros;
+        private Button btnExcluir;
+        private Button btnAtualizar;
     }
 }

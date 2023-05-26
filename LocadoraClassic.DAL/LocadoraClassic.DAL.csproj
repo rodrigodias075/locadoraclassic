@@ -91,6 +91,7 @@
     <Compile Include="ClientesDAL.cs" />
     <Compile Include="Conexao.cs" />
     <Compile Include="GeneroDAL.cs" />
+    <Compile Include="LoginDAL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
